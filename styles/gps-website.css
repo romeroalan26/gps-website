@@ -16,8 +16,6 @@ body {
     vertical-align: middle;
 }
 
-.box-options:hover {}
-
 .box-logo {
     display: inline-block;
     vertical-align: middle;
@@ -49,8 +47,7 @@ body {
     padding-right: 20px;
     background-color: rgb(255, 255, 255);
     margin-right: 5px;
-    transition: 0.2s;
-
+    transition: 0.2s
 }
 
 .logo:hover,
