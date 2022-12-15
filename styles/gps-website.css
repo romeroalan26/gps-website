@@ -1,0 +1,94 @@
+body {
+    font-family: 'arial';
+}
+
+.head {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10;
+
+    border-style: solid;
+    border-width: 1px;
+
+}
+
+.box-options {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.box-options:hover {}
+
+.box-logo {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.logo {
+    width: 70px;
+    border-radius: 100px;
+    display: inline-block;
+    margin-right: 10px;
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 7px;
+    transition: 0.15s;
+
+}
+
+.inicio,
+.juegos,
+.consolas,
+.contacto {
+    font-size: 20px;
+    border-radius: 100px;
+    border-style: solid;
+    border-width: 1px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(255, 255, 255);
+    margin-right: 5px;
+    transition: 0.2s;
+
+}
+
+.logo:hover,
+.inicio:hover,
+.juegos:hover,
+.consolas:hover,
+.contacto:hover,
+.box-bienvenida:hover {
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 2);
+    cursor: pointer;
+}
+
+.contacto {
+    display: inline-block;
+    text-align: right;
+}
+
+.box-bienvenida {
+    margin-top: 20px;
+    border-style: solid;
+    border-width: 1px;
+    display: inline-block;
+    transition: 0.2s;
+}
+
+.bienvenida {
+    width: 400px;
+    padding-left: 10px;
+}
+
+.detalles {
+    font-size: 20px;
+    width: 400px;
+    padding-left: 10px;
+}
+
+.descripcion {
+    font-size: 20px;
+    color: gray;
+    padding-left: 10px;
+}
