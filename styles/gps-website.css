@@ -68,7 +68,7 @@ input{
 .juegos:hover,
 .consolas:hover,
 .contacto:hover{
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 2);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 2);
     cursor: pointer;
 }
 
@@ -78,6 +78,7 @@ input{
 }
 
 .head2{
+    margin-top: 20px;
     text-align: center;
     background-color: white;
     border-radius: 5px;
@@ -91,8 +92,10 @@ input{
 }
 
 .box-bienvenida {
-    width: 480px;
+    border-color: black;
     margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
     border-style: solid;
     border-width: 1px;
     display: inline-block;
@@ -136,7 +139,7 @@ input{
 .sms:hover,
 .sm3dal:hover{
     cursor: pointer;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 2);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 2);
 }
 .ssbu-box,
 .mk8dl-box,
@@ -161,6 +164,8 @@ input{
 .actual-offers{
     margin-left: 10px;
     font-size: 25px;
+    border-style: solid;
+    border-width: 1px;
 }
 .discount{
     color: black;
