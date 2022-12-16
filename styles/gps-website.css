@@ -2,7 +2,7 @@ body {
 
     font-family: 'arial';
     background-image: url(https://wallpaperaccess.com/full/3657620.jpg);
-    text-align: center
+    text-align: center;
 }
 
 .box-head {
@@ -200,4 +200,5 @@ input {
 .gamesbox1 {
     vertical-align: top;
     margin-top: 0;
+    width: 1000px;
 }
