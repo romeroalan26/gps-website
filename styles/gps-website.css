@@ -1,14 +1,11 @@
 body {
     font-family: 'arial';
+    background-color: rgb(33, 52, 70);
 }
 
 .head {
     background-color: rgb(255, 255, 255);
-    border-radius: 10;
-
-    border-style: solid;
-    border-width: 1px;
-
+    border-radius: 5px;
 }
 
 .box-options {
@@ -22,6 +19,8 @@ body {
 }
 
 .logo {
+    box-shadow: 0px 0px 10px rgb(33, 52, 70, 0.4);
+    margin-left: 10px;
     width: 70px;
     border-radius: 100px;
     display: inline-block;
@@ -37,7 +36,9 @@ body {
 .juegos,
 .consolas,
 .contacto {
+    box-shadow: 0px 0px 10px rgba(33, 52, 70, 0.4);
     font-size: 20px;
+    border-color: rgb(0, 0, 0);
     border-radius: 100px;
     border-style: solid;
     border-width: 1px;
@@ -45,17 +46,27 @@ body {
     padding-bottom: 20px;
     padding-left: 20px;
     padding-right: 20px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255, 0.4);
     margin-right: 5px;
     transition: 0.2s
+}
+input{
+    border-radius: 50px;
+    border-style: solid;
+    border-width: 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+    width: 500px;
+    box-shadow: 0px 0px 10px rgb(33, 52, 70, 0.4);
 }
 
 .logo:hover,
 .inicio:hover,
 .juegos:hover,
 .consolas:hover,
-.contacto:hover,
-.box-bienvenida:hover {
+.contacto:hover{
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 2);
     cursor: pointer;
 }
@@ -66,16 +77,21 @@ body {
 }
 
 .box-bienvenida {
+    width: 480px;
     margin-top: 20px;
     border-style: solid;
     border-width: 1px;
     display: inline-block;
     transition: 0.2s;
+    background-color: white;
+    border-radius: 5px;
+    padding-bottom: 560px;
 }
 
 .bienvenida {
-    width: 400px;
+    width: 490px;
     padding-left: 10px;
+    font-size: 25px;
 }
 
 .detalles {
@@ -88,4 +104,85 @@ body {
     font-size: 20px;
     color: gray;
     padding-left: 10px;
+}
+.ssbu{
+    width: 150px;
+    object-fit: cover;
+}
+.ssbu-box{
+    margin-left: 15px;
+    display: inline-block;
+    width: 200px;
+}
+.game-name{
+    font-size: 15px;
+    margin-bottom: 0;
+    width: 150px;
+}
+.game-price{
+    margin-top: 0;
+    font-size: 15px;
+    color: rgb(255, 0, 0);
+}
+.actual-offers{
+    margin-left: 10px;
+    font-size: 25px;
+}
+.discount{
+    color: black;
+}
+.box-body{
+    width: 480px;
+    margin-top: 20px;
+    border-style: solid;
+    border-width: 1px;
+    display: inline-block;
+    transition: 0.2s;
+    background-color: white;
+    border-radius: 5px;
+    padding-bottom: 560px;
+}
+
+.bienvenida {
+    width: 490px;
+    padding-left: 10px;
+    font-size: 25px;
+}
+
+.detalles {
+    font-size: 20px;
+    width: 400px;
+    padding-left: 10px;
+}
+
+.descripcion {
+    font-size: 20px;
+    color: gray;
+    padding-left: 10px;
+}
+.ssbu{
+    width: 150px;
+    object-fit: cover;
+}
+.ssbu-box{
+    margin-left: 15px;
+    display: inline-block;
+    width: 200px;
+}
+.game-name{
+    font-size: 15px;
+    margin-bottom: 0;
+    width: 150px;
+}
+.game-price{
+    margin-top: 0;
+    font-size: 15px;
+    color: rgb(255, 0, 0);
+}
+.actual-offers{
+    margin-left: 10px;
+    font-size: 25px;
+}
+.discount{
+    color: black;
 }
