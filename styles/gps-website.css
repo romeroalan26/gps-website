@@ -58,7 +58,8 @@ body {
     margin-right: 5px;
     transition: 0.2s
 }
-input{
+
+input {
     border-radius: 50px;
     border-style: solid;
     border-width: 1px;
@@ -74,7 +75,7 @@ input{
 .inicio:hover,
 .juegos:hover,
 .consolas:hover,
-.contacto:hover{
+.contacto:hover {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 2);
     cursor: pointer;
 }
@@ -84,7 +85,7 @@ input{
     text-align: right;
 }
 
-.head2{
+.head2 {
     margin-top: 20px;
     text-align: center;
     background-color: white;
@@ -94,7 +95,8 @@ input{
     padding-left: 240px;
     padding-right: 240px;
 }
-.boxhead2{
+
+.boxhead2 {
     text-align: center;
 }
 
@@ -112,7 +114,8 @@ input{
     padding-right: 345px;
     padding-left: 345px;
 }
-.head3{
+
+.head3 {
     text-align: center;
 }
 
@@ -133,52 +136,59 @@ input{
     color: gray;
     padding-left: 10px;
 }
+
 .ssbu,
 .mk8dl,
 .sms,
-.sm3dal{
+.sm3dal {
     width: 150px;
     object-fit: cover;
     transition: 0.2s;
 }
+
 .ssbu:hover,
 .mk8dl:hover,
 .sms:hover,
-.sm3dal:hover{
+.sm3dal:hover {
     cursor: pointer;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 2);
 }
+
 .ssbu-box,
 .mk8dl-box,
 .sms-box,
-.sm3dal-box{
+.sm3dal-box {
     margin-left: 15px;
     display: inline-block;
     width: 200px;
     vertical-align: top;
 }
-.game-name{
+
+.game-name {
     margin-top: 0;
     font-size: 15px;
     margin-bottom: 0;
     width: 200px;
 }
-.game-price{
+
+.game-price {
     margin-top: 0;
     font-size: 15px;
     color: rgb(255, 0, 0);
 }
-.actual-offers{
+
+.actual-offers {
     margin-left: 10px;
     font-size: 25px;
     border-style: solid;
     border-width: 1px;
 }
-.discount{
+
+.discount {
     color: black;
 }
-.gamesbox1{
-vertical-align: top;
-margin-top: 0;
-}
 
+.gamesbox1 {
+    vertical-align: top;
+    margin-top: 0;
+}
