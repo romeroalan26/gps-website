@@ -56,7 +56,6 @@ body {
     padding-right: 20px;
     background-color: rgb(255, 255, 255, 0.4);
     margin-right: 5px;
-    transition: 0.2s
 }
 
 input {
@@ -78,6 +77,16 @@ input {
 .contacto:hover {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 2);
     cursor: pointer;
+    transition: 0.15s
+    
+}
+
+.logo:active,
+.inicio:active,
+.juegos:active,
+.consolas:active,
+.contacto:active {
+    opacity: 0.4;
 }
 
 .contacto {
