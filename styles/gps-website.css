@@ -111,6 +111,14 @@ input{
 .sm3dal{
     width: 150px;
     object-fit: cover;
+    transition: 0.2s;
+}
+.ssbu:hover,
+.mk8dl:hover,
+.sms:hover,
+.sm3dal:hover{
+    cursor: pointer;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 2);
 }
 .ssbu-box,
 .mk8dl-box,
