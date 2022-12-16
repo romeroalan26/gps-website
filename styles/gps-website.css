@@ -1,12 +1,19 @@
 body {
+
     font-family: 'arial';
-    background-color: rgb(33, 52, 70);
+    background-image: url(https://wallpaperaccess.com/full/3657620.jpg);
+    text-align: center
+}
+
+.box-head {
+    text-align: center;
+    display: inline-block;
 }
 
 .head {
     background-color: rgb(255, 255, 255);
     border-radius: 5px;
-    text-align: center;
+    width: 1180px;
 }
 
 .box-options {
@@ -96,14 +103,14 @@ input{
     margin-top: 20px;
     margin-left: 25px;
     margin-right: 25px;
-    border-style: solid;
+    border-style: none;
     border-width: 1px;
     display: inline-block;
     transition: 0.2s;
     background-color: white;
     border-radius: 5px;
-    padding-right: 350px;
-    padding-left: 350px;
+    padding-right: 345px;
+    padding-left: 345px;
 }
 .head3{
     text-align: center;
