@@ -105,16 +105,24 @@ input{
     color: gray;
     padding-left: 10px;
 }
-.ssbu{
+.ssbu,
+.mk8dl,
+.sms,
+.sm3dal{
     width: 150px;
     object-fit: cover;
 }
-.ssbu-box{
+.ssbu-box,
+.mk8dl-box,
+.sms-box,
+.sm3dal-box{
     margin-left: 15px;
     display: inline-block;
     width: 200px;
+    vertical-align: top;
 }
 .game-name{
+    margin-top: 0;
     font-size: 15px;
     margin-bottom: 0;
     width: 150px;
@@ -131,58 +139,8 @@ input{
 .discount{
     color: black;
 }
-.box-body{
-    width: 480px;
-    margin-top: 20px;
-    border-style: solid;
-    border-width: 1px;
-    display: inline-block;
-    transition: 0.2s;
-    background-color: white;
-    border-radius: 5px;
-    padding-bottom: 560px;
+.gamesbox1{
+vertical-align: top;
+margin-top: 0;
 }
 
-.bienvenida {
-    width: 490px;
-    padding-left: 10px;
-    font-size: 25px;
-}
-
-.detalles {
-    font-size: 20px;
-    width: 400px;
-    padding-left: 10px;
-}
-
-.descripcion {
-    font-size: 20px;
-    color: gray;
-    padding-left: 10px;
-}
-.ssbu{
-    width: 150px;
-    object-fit: cover;
-}
-.ssbu-box{
-    margin-left: 15px;
-    display: inline-block;
-    width: 200px;
-}
-.game-name{
-    font-size: 15px;
-    margin-bottom: 0;
-    width: 150px;
-}
-.game-price{
-    margin-top: 0;
-    font-size: 15px;
-    color: rgb(255, 0, 0);
-}
-.actual-offers{
-    margin-left: 10px;
-    font-size: 25px;
-}
-.discount{
-    color: black;
-}
