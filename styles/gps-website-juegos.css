@@ -186,6 +186,9 @@ input {
     border-width: 1px;
     border-radius: 5px;
     display: block;
+    width: 1037px;
+    margin-left: 76px;
+    
 }
 
 .discount {
