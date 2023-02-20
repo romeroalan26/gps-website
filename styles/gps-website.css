@@ -4,7 +4,10 @@ body {
     background-image: url(https://wallpaperaccess.com/full/3657620.jpg);
     text-align: center;
 }
-
+main{
+    display: flex;
+    flex-direction: column;
+}
 .box-head {
     text-align: center;
     display: inline-block;
